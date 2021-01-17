@@ -269,7 +269,8 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  github-pages (~> 209)
+  github-pages
+  jekyll
   jekyll-feed (~> 0.12)
   jekyll-include-cache
   minimal-mistakes-jekyll
