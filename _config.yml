@@ -14,6 +14,52 @@
 #
 # Site settings
 minimal_mistakes_skin: "aqua"
+locale: "en-US"
+name: "Ireoluwatomiwa Akinfisoye"
+repository: tomdave01/tomdave01.github.io
+twitter:
+  username: "tommy_dave_"
+facebook:
+  username: "tomdave01"
+social: 
+  type: personalize
+  name:
+  links:
+    - "https://twitter.com/tommy_dave_"
+    - "https://www.facebook.com/tomdave01"
+    - "https://instagram.com"
+    - "https://www.linkedin.com"
+author:
+  name: "Ireoluwatomiwa Akinfisoye"
+  avatar: ""
+  bio: "I like to create things"
+  location: "Debrecen, Hungary"
+  email: tomdave01@gmail.com
+  links:
+    - label: "Email"
+      icon: fas "fab fa-fw fa-envelope-square"
+      url: "mailto:tomdave01@gmail.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/tommy_dave_"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tomdave01"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com"
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/tommy_dave_"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tomdave01"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com"
+
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
@@ -23,7 +69,7 @@ title: My Portfolio Website
 email: tomdave01@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hi, This will be my portfolio
-baseurl: "/tomdave01.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tomdave01.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tommy_dave_
 github_username:  tomdave01
@@ -31,10 +77,53 @@ github_username:  tomdave01
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+include:
+  - .htaccess
+  - _pages
+
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -55,3 +144,10 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
