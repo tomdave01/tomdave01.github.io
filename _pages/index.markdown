@@ -5,7 +5,10 @@
 layout: splash
 title: home
 permalink : /
-author_profile: true
+classes:
+  - landing
+  - dark-theme
+  - wide
 
 author:
   name: "Ireoluwatomiwa Akinfisoye"
@@ -27,3 +30,5 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com"
 ---
+
+<p>Placeholder text for intro</p>
