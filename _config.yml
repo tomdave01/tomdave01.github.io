@@ -29,25 +29,6 @@ social:
     - "https://www.facebook.com/tomdave01"
     - "https://instagram.com"
     - "https://www.linkedin.com"
-author:
-  name: "Ireoluwatomiwa Akinfisoye"
-  avatar: ""
-  bio: "I like to create things"
-  location: "Debrecen, Hungary"
-  email: tomdave01@gmail.com
-  links:
-    - label: "Email"
-      icon: fas "fab fa-fw fa-envelope-square"
-      url: "mailto:tomdave01@gmail.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/tommy_dave_"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/tomdave01"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com"
 footer:
   links:
     - label: "Twitter"
