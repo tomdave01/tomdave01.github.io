@@ -5,4 +5,4 @@ permalink: /about/
 classes: wide
 ---
 
-<p>Placeholder text for hobbies... etc</p>
+<p>Write Age, hobbies, goals, likes, etc.</p>

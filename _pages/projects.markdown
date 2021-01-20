@@ -5,4 +5,5 @@ permalink: /projects/
 classes: wide
 ---
 
-<p>Placeholder text for a showcase of past/future projects</p>
+<p>Past Project: Discord Bot
+<p>Future Project: The FPL dashboard

@@ -31,4 +31,5 @@ author:
       url: "https://instagram.com"
 ---
 
-<p>Placeholder text for intro</p>
+<p style="font-size: 200%; text-align: center">Hello, my name is <strong>Ireoluwa<em>tomiwa</em> Akinfisoye</strong>
+<p style="font-size: 150%" >I try to create apps and contribute to opensource software 
