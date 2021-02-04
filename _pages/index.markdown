@@ -31,5 +31,6 @@ author:
       url: "https://instagram.com"
 ---
 
-<p style="font-size: 200%; text-align: center">Hello, my name is <strong>Ireoluwa<em>tomiwa</em> Akinfisoye</strong>
-<p style="font-size: 150%" >I try to create apps and contribute to opensource software 
+<p style="font-size: 200%; text-align: center"><img src="./assets/images/photo.jpg" alt="A picture of me" style="float:right;width:75%;height:auto;max-width:300px;">Hello, my name is <strong>Ireoluwa<em>tomiwa</em> Akinfisoye</strong>
+<p style="font-size: 150%" >I try to create apps and contribute to opensource software
+<p style="font-size: 150%" >You can find out more about me <a href="/about">here</a> or Check out my past or present projects <a href="/projects">here</a>
