@@ -2,8 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: splash
-title: home
+layout: home
+title: Home
 permalink : /
 classes:
   - landing
@@ -32,5 +32,16 @@ author:
 ---
 
 <p style="font-size: 200%; text-align: center"><img src="/assets/images/Photo.jpg" alt="A picture of me" style="float:right;width:75%;height:auto;max-width:300px;">Hello, my name is <strong>Ireoluwa<em>tomiwa</em> Akinfisoye</strong>
-<p style="font-size: 150%" >I am a Front-End Engineer and Python Developer with some experience with handling data
+<p style="font-size: 150%" >I am a Front-End Developer and Python Developer with some experience with handling data
 <p style="font-size: 150%" >You can find out more about me <a href="/about">here</a> or Check out my past or present projects <a href="/projects">here</a>
+<!--Switch Back to a splash Page and put three Projects that you value the most-->
+
+<!--Make a Meme Page or Page of Songs you like to see lighten up the mood-->
+
+<!--Make sure to move your picture to About page-->
+
+<!--Use Snapshots of your code for feature row blocks, with a  link to the Projects page-->
+
+<!--Find a Nice picture to use as your Splash page header image-->
+
+<!--Link to your resume on the main page-->
