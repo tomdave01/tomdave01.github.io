@@ -13,7 +13,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 #
 # Site settings
-minimal_mistakes_skin: "aqua"
+minimal_mistakes_skin: "plum"
 locale: "en-US"
 name: "Ireoluwatomiwa Akinfisoye"
 repository: tomdave01/tomdave01.github.io
