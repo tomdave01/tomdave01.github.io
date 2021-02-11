@@ -55,7 +55,8 @@ author:
 <p style="font-size: 200%; text-align: center">Hello, my name is <strong>Ireoluwa<em>tomiwa</em> Akinfisoye</strong>
 <p style="font-size: 150%" >I am a Front-End Developer and Python Developer with some experience with handling data
 <p style="font-size: 150%" >You can find out more about me <a href="/about">here</a> or Check out my past or present projects <a href="/projects">here</a>
-<!--Switch Back to a splash Page and put three Projects that you value the most-->
+
+<!--Switch Back to a splash Page and put three Projects that you value the most [Done (Just need to refine)]-->
 
 <!--Make a Meme Page or Page of Songs you like to see lighten up the mood-->
 
@@ -63,6 +64,6 @@ author:
 
 <!--Use Snapshots of your code for feature row blocks, with a  link to the Projects page-->
 
-<!--Find a Nice picture to use as your Splash page header image-->
+<!--Find a Nice picture to use as your Splash page header image [Done]-->
 
 <!--Link to your resume on the main page-->
