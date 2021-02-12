@@ -16,18 +16,27 @@ header:
   caption: "Photo Credit: [**freepik**](https://www.freepik.com/vectors/background)"
 
 feature_row:
-  - image_path: /assets/images/Splash.jpg
+  - image_path: /assets/images/Fr1_1.jpg
     alt: "placeholder image 1"
     title: "Placeholder 1"
     excerpt: "This is where the discord bot is gonna go **Markdown** formatting"
-  - image_path: /assets/images/Splash.jpg
+    btn_class: "btn btn--primary"
+    btn_label: "Source Code"
+    url: "/projects/"
+  - image_path: /assets/images/Fr1_2i.jpg
     alt: "placeholder image 2"
     title: "Placeholder 2"
     excerpt: "This is where I will insert my Advent of Code 2020 solutions **Markdown** formatting"
+    btn_class: "btn btn--primary"
+    btn_label: "Source Code"
+    url: "/projects/"
   - image_path: /assets/images/Splash.jpg
     alt: "placeholder image 3"
     title: "Placeholder 3"
     excerpt: "This is where I will insert my FPL bot **Markdown** formatting"
+    btn_class: "btn btn--primary"
+    btn_label: "Source Code"
+    url: "/projects/"
 
 author:
   name: "Ireoluwatomiwa Akinfisoye"
@@ -52,7 +61,7 @@ author:
 
 {% include feature_row %}
 
-<p style="font-size: 200%; text-align: center">Hello, my name is <strong>Ireoluwa<em>tomiwa</em> Akinfisoye</strong>
+<!-- <p style="font-size: 200%; text-align: center">Hello, my name is <strong>Ireoluwa<em>tomiwa</em> Akinfisoye</strong>
 <p style="font-size: 150%" >I am a Front-End Developer and Python Developer with some experience with handling data
 <p style="font-size: 150%" >You can find out more about me <a href="/about">here</a> or Check out my past or present projects <a href="/projects">here</a>
 
