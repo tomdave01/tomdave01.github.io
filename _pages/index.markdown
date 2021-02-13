@@ -9,7 +9,7 @@ classes:
   - landing
   - dark-theme
   - wide
-excerpt: "Hello, my name is Ireoluwatomiwa Akinfisoye and I'm a software Engineer"
+excerpt: "Hello, my name is **Ireoluwatomiwa Akinfisoye** and I'm a software Engineer"
 header:
   overlay_image: /assets/images/Splash.jpg
   image_description: "An introductory text over a visually appealing image"
@@ -19,21 +19,21 @@ feature_row:
   - image_path: /assets/images/Fr1_1.jpg
     alt: "placeholder image 1"
     title: "Placeholder 1"
-    excerpt: "This is where the discord bot is gonna go **Markdown** formatting"
+    excerpt: "Click the button below to see the source code of my discord bot"
     btn_class: "btn btn--primary"
     btn_label: "Source Code"
-    url: "/projects/"
+    url: "https://github.com/tomdave01/SphynxBot"
   - image_path: /assets/images/Fr1_2i.jpg
     alt: "placeholder image 2"
     title: "Placeholder 2"
-    excerpt: "This is where I will insert my Advent of Code 2020 solutions **Markdown** formatting"
+    excerpt: "Click the button below to view my solutions of Advent of Code 2020"
     btn_class: "btn btn--primary"
     btn_label: "Source Code"
-    url: "/projects/"
+    url: "https://github.com/tomdave01/AdventOfCode2020"
   - image_path: /assets/images/Splash.jpg
     alt: "placeholder image 3"
     title: "Placeholder 3"
-    excerpt: "This is where I will insert my FPL bot **Markdown** formatting"
+    excerpt: "Click the Button below to view the source code for my upcoming FPL bot"
     btn_class: "btn btn--primary"
     btn_label: "Source Code"
     url: "/projects/"
