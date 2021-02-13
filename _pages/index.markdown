@@ -16,14 +16,14 @@ header:
   caption: "Photo Credit: [**freepik**](https://www.freepik.com/vectors/background)"
 
 feature_row:
-  - image_path: /assets/images/Fr1_1.jpg
+  - image_path: /assets/images/Fr1_1.JPG
     alt: "placeholder image 1"
     title: "Placeholder 1"
     excerpt: "Click the button below to see the source code of my discord bot"
     btn_class: "btn btn--primary"
     btn_label: "Source Code"
     url: "https://github.com/tomdave01/SphynxBot"
-  - image_path: /assets/images/Fr1_2i.jpg
+  - image_path: /assets/images/Fr1_2i.JPG
     alt: "placeholder image 2"
     title: "Placeholder 2"
     excerpt: "Click the button below to view my solutions of Advent of Code 2020"
