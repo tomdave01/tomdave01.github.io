@@ -14,25 +14,28 @@ header:
   overlay_image: /assets/images/Splash.jpg
   image_description: "An introductory text over a visually appealing image"
   caption: "Photo Credit: [**freepik**](https://www.freepik.com/vectors/background)"
+  actions:
+    - label: "More About me"
+      url: "/about/"
 
 feature_row:
   - image_path: /assets/images/Fr1_1.JPG
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
+    alt: "Discord Bot Code Snippet"
+    title: "Discord Bot Project"
     excerpt: "Click the button below to see the source code of my discord bot"
     btn_class: "btn btn--primary"
     btn_label: "Source Code"
     url: "https://github.com/tomdave01/SphynxBot"
   - image_path: /assets/images/Fr1_2i.JPG
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
+    alt: "Advent of Code 2020 day 4 code snippet"
+    title: "Advent Of Code 2020 Solutions"
     excerpt: "Click the button below to view my solutions of Advent of Code 2020"
     btn_class: "btn btn--primary"
     btn_label: "Source Code"
     url: "https://github.com/tomdave01/AdventOfCode2020"
   - image_path: /assets/images/Splash.jpg
     alt: "placeholder image 3"
-    title: "Placeholder 3"
+    title: "Upcoming FPL bot project"
     excerpt: "Click the Button below to view the source code for my upcoming FPL bot"
     btn_class: "btn btn--primary"
     btn_label: "Source Code"
@@ -58,6 +61,9 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com"
 ---
+
+<h3>Here are some of my favorite projects I worked on...</h3>
+<br>
 
 {% include feature_row %}
 
