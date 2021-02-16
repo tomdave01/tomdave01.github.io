@@ -67,6 +67,7 @@ author:
 
 {% include feature_row %}
 
+<p>You can contact me through <a href="mailto:tomdave01@gmail.com">email</a> or DM me on twitter(social media where I'm most active)</p>
 
 <!-- <p style="font-size: 200%; text-align: center">Hello, my name is <strong>Ireoluwa<em>tomiwa</em> Akinfisoye</strong>
 <p style="font-size: 150%" >I am a Front-End Developer and Python Developer with some experience with handling data
