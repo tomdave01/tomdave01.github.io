@@ -9,7 +9,7 @@ classes:
   - landing
   - dark-theme
   - wide
-excerpt: "Hello, my name is **Ireoluwatomiwa Akinfisoye** and I'm a software Engineer"
+excerpt: "Hello, I'm **Ireoluwatomiwa Akinfisoye** and I'm a software Engineer"
 header:
   overlay_image: /assets/images/Splash.jpg
   image_description: "An introductory text over a visually appealing image"
@@ -66,6 +66,7 @@ author:
 <br>
 
 {% include feature_row %}
+
 
 <!-- <p style="font-size: 200%; text-align: center">Hello, my name is <strong>Ireoluwa<em>tomiwa</em> Akinfisoye</strong>
 <p style="font-size: 150%" >I am a Front-End Developer and Python Developer with some experience with handling data
