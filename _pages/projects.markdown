@@ -17,4 +17,4 @@ classes: wide
 
 <hr>
 
-<p><em>Shhhh, I got some works in the pipeline that I will share soon<em></p>
+<p><em>Shhhh, I got some works in the pipeline that I will share soon<em>
