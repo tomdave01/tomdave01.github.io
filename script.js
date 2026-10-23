@@ -1,36 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Get the start button
+    
     const startButton = document.querySelector('.start-button');
     
-    // Get the about section
     const aboutSection = document.getElementById('about');
     
-    // Add click event listener to the button
     startButton.addEventListener('click', function() {
-        // Scroll to the about section smoothly
         aboutSection.scrollIntoView({ behavior: 'smooth' });
     });
 
-    /*// Add sound effects for button clicks
-    const buttons = document.querySelectorAll('button');
-    buttons.forEach(button => {
-        button.addEventListener('click', () => {
-            const audio = new Audio('sounds/blip.mp3'); // Create sound files
-            audio.play();
-        });
-    });*/
-    
-    // Add typewriter effect to "SPECIALIZING IN:" text
     const typewriter = document.getElementById('typewriter');
     if (typewriter) {
         const originalText = typewriter.textContent;
-        typewriter.textContent = '';  // Clear it initially
+        typewriter.textContent = '';
         
-        // Start the effect when the about section comes into view
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    // Add a small delay for better effect
                     setTimeout(() => {
                         typeWriter(typewriter, originalText, 100);  // 100ms between characters
                     }, 500);
@@ -41,9 +26,36 @@ document.addEventListener('DOMContentLoaded', function() {
         
         observer.observe(document.getElementById('about'));
     }
+
+    const sections = document.querySelectorAll('.game-section');
+    const navItems = document.querySelectorAll('.nav-item');
+
+    const observerOptions = {
+        root: null, 
+        rootMargin: '-50% 0px',
+        threshold: 0
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            const targetId = entry.target.id;
+            const navItem = document.querySelector(`.nav-item[href="#${targetId}"]`);
+            
+            if (navItem) {
+                if (entry.isIntersecting) {
+                    navItem.classList.add('active');
+                } else {
+                    navItem.classList.remove('active');
+                }
+            }
+        });
+    }, observerOptions);
+
+    sections.forEach(section => {
+        observer.observe(section);
+    });
 });
 
-// Add typewriter effect to terminal text
 function typeWriter(element, text, speed) {
     let i = 0;
     element.innerHTML = '';
@@ -57,11 +69,8 @@ function typeWriter(element, text, speed) {
     type();
 }
 
-// Improve mobile experience
 document.addEventListener('DOMContentLoaded', function() {
-    // Existing code remains...
     
-    // Add a loading screen
     const body = document.body;
     const loadingScreen = document.createElement('div');
     loadingScreen.className = 'loading-screen';
@@ -71,7 +80,6 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     body.prepend(loadingScreen);
     
-    // Hide loading screen when page is fully loaded
     window.addEventListener('load', function() {
         loadingScreen.style.opacity = '0';
         setTimeout(() => {
@@ -79,7 +87,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 500);
     });
     
-    // Fix iOS scroll issues
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
@@ -91,22 +98,42 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Better touch feedback for project cards
-    document.querySelectorAll('.project-card').forEach(card => {
-        card.addEventListener('touchstart', function() {
-            this.style.transform = 'scale(1.03)';
-        }, {passive: true});
-        
-        card.addEventListener('touchend', function() {
-            this.style.transform = '';
-        }, {passive: true});
-    });
-    
-    // Handle orientation changes
     window.addEventListener('orientationchange', function() {
-        // Force redraw after orientation change
         setTimeout(function() {
             window.scrollBy(0, 1);
         }, 300);
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const cards = document.querySelectorAll('.card-stack .card');
+    const leftArrow = document.querySelector('.card-stack .arrow.left');
+    const rightArrow = document.querySelector('.card-stack .arrow.right');
+    let currentIndex = 0;
+
+    function showCard(index) {
+        cards.forEach((card, i) => {
+            card.classList.toggle('active', i === index);
+        });
+        currentIndex = index;
+    }
+
+    if (cards.length) {
+        showCard(currentIndex);
+    }
+
+    if (rightArrow) {
+        rightArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % cards.length;
+            showCard(currentIndex);
+        });
+    }
+    if (leftArrow) {
+        leftArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+            showCard(currentIndex);
+        });
+    }
+});
+
